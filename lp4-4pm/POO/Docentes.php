@@ -8,11 +8,11 @@
 require_once 'Personas.php';
 class Docentes extends Personas{
 
-    public function enseniar()
+    public function enseniar($nombre)
     {
-        echo utf8_decode('estoy enseñando');
+        echo utf8_decode('estoy enseñando').' a '.$nombre;
     }
 }
 
 $docentes = new Docentes();
-$docentes->enseniar();
+$docentes->enseniar('Juan');
