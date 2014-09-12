@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab1f1bcf-522d-47c4-b315-845fe3fd44e4" name="Default" comment="" />
-    <ignored path="clase1.iws" />
+    <list default="true" id="e146ed1f-c19f-483a-99b6-72757fb0d50b" name="Default" comment="" />
+    <ignored path="POO.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +19,44 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="clase1" />
+    <favorites_list name="POO" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Personas.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Personas.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.75547445" vertical-offset="0" max-vertical-offset="667">
+              <folding>
+                <element signature="e#7#98#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Alumno.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alumno.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="-12.21875" vertical-offset="0" max-vertical-offset="529">
+              <folding>
+                <element signature="e#6#97#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Docentes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Docentes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="-8.625" vertical-offset="0" max-vertical-offset="414">
+              <folding>
+                <element signature="e#6#97#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -32,10 +66,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/helloword.php" />
-        <option value="$PROJECT_DIR$/ifelseif.php" />
-        <option value="$PROJECT_DIR$/foreach.php" />
-        <option value="$PROJECT_DIR$/comillas.php" />
+        <option value="$PROJECT_DIR$/Personas.php" />
+        <option value="$PROJECT_DIR$/Alumno.php" />
+        <option value="$PROJECT_DIR$/Docentes.php" />
       </list>
     </option>
   </component>
@@ -72,36 +105,35 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clase1" />
+              <option name="myItemId" value="POO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clase1" />
+              <option name="myItemId" value="POO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clase1" />
+              <option name="myItemId" value="POO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../POO" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -122,9 +154,9 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab1f1bcf-522d-47c4-b315-845fe3fd44e4" name="Default" comment="" />
-      <created>1410556201056</created>
-      <updated>1410556201056</updated>
+      <changelist id="e146ed1f-c19f-483a-99b6-72757fb0d50b" name="Default" comment="" />
+      <created>1410560295307</created>
+      <updated>1410560295307</updated>
     </task>
     <servers />
   </component>
@@ -136,7 +168,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18843469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24925224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -168,33 +200,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ifelseif.php">
+    <entry file="file://$PROJECT_DIR$/Alumno.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.6222628" vertical-offset="4" max-vertical-offset="552">
+        <state line="22" column="20" selection-start="359" selection-end="359" vertical-scroll-proportion="-12.21875" vertical-offset="0" max-vertical-offset="529">
           <folding>
-            <element signature="e#6#97#0" expanded="true" />
+            <element signature="e#6#97#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foreach.php">
+    <entry file="file://$PROJECT_DIR$/Docentes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="309" selection-end="309" vertical-scroll-proportion="-12.09375" vertical-offset="4" max-vertical-offset="575">
-          <folding />
+        <state line="17" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="-8.625" vertical-offset="0" max-vertical-offset="414">
+          <folding>
+            <element signature="e#6#97#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comillas.php">
+    <entry file="file://$PROJECT_DIR$/Personas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="33" selection-end="33" vertical-scroll-proportion="0.08394161" vertical-offset="0" max-vertical-offset="548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="405" selection-end="405" vertical-scroll-proportion="0.7481752" vertical-offset="188" max-vertical-offset="736">
-          <folding />
+        <state line="23" column="13" selection-start="339" selection-end="339" vertical-scroll-proportion="0.75547445" vertical-offset="0" max-vertical-offset="667">
+          <folding>
+            <element signature="e#7#98#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
