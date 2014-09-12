@@ -10,4 +10,6 @@ if ($a == $b) {
 } else {
     $resultado = 'no es igual';
 }
+
+
 echo $resultado;
