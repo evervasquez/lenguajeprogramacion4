@@ -9,19 +9,30 @@ require_once 'Jugador.php';
 
 class Jugar
 {
-    public function comenzar($nombre)
-    {
-        $jugador = new Jugador($nombre);
+    private $jugador;
+    private $nombre;
 
-        return $jugador->lanzar();
+    public function __construct($nombre)
+    {
+        $this->jugador = new Jugador($nombre);
+    }
+
+    public function comenzar()
+    {
+        return $this->jugador->lanzar();
+    }
+
+    public function imprimir()
+    {
+        return 'El jugador ' . $this->jugador->getNombre(). ' ha lanzado el dado : ' . $this->comenzar() . '</br>';
     }
 }
 
 $nombre1 = 'Juan';
 $nombre2 = 'Carlos';
 
-$jugador1 = new Jugar();
-echo 'El jugador '.$nombre1.' ha lanzado el dado : '.$jugador1->comenzar($nombre1).'</br>';
+$jugador1 = new Jugar($nombre1);
+echo $jugador1->imprimir();
 
-$jugador2 = new Jugar();
-echo 'El jugador '.$nombre2.' ha lanzado el dado : '.$jugador1->comenzar($nombre2);
+$jugador2 = new Jugar($nombre2);
+echo $jugador2->imprimir();
