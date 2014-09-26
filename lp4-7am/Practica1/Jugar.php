@@ -14,7 +14,7 @@ class Jugar
 
     public function __construct($nombre)
     {
-        $this->jugador = new Jugador($nombre);
+        $this->nombre= new Jugador($nombre);
     }
 
     public function comenzar()
