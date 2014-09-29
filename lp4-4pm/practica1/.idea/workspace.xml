@@ -48,7 +48,7 @@
       <file leaf-file-name="Jugar.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jugar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="39" selection-start="1273" selection-end="1273" vertical-scroll-proportion="1.855814" vertical-offset="0" max-vertical-offset="1323">
+            <state line="26" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.06511628" vertical-offset="504" max-vertical-offset="1323">
               <folding />
             </state>
           </provider>
@@ -132,6 +132,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lp4-7am/Practica1" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -218,7 +219,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jugar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="39" selection-start="1273" selection-end="1273" vertical-scroll-proportion="1.855814" vertical-offset="0" max-vertical-offset="1323">
+        <state line="26" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="0.06511628" vertical-offset="504" max-vertical-offset="1323">
           <folding />
         </state>
       </provider>
