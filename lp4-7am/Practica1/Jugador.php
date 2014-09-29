@@ -22,9 +22,4 @@ class Jugador
         $dado = new Dado();
         return $dado->girar();
     }
-
-    public function getNombre()
-    {
-        return $this->nombre;
-    }
-} 
+}
