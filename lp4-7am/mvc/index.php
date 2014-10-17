@@ -19,6 +19,15 @@ try {
 
     //FrontController::main(new request);
 
-} catch (ErrorException $e) {
-    echo(utf8_decode('pata ven mas tarde'));
+    /*PRUEBA DEL REQUEST
+     * $r = new \Aplicacion\Request();
+
+    echo $r->getControlador() . '<br/>';
+    echo $r->getMetodo() . '<br/>';
+    print_r($r->getArgumentos());*/
+
+    Bootstrap::run(new Request());
+
+} catch (Exception $e) {
+    echo($e->getMessage());
 }

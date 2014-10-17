@@ -1,14 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Investigación2
- * Date: 10/10/14
- * Time: 10:26 AM
- */
 
-namespace Aplicacion;
+abstract class Controlador
+{
+    protected $_vista;
+
+    abstract public function index();
+
+    public function __construct()
+    {
+        $this->_vista = new Vista(new Request());
+    }
 
 
-class Controlador {
-
-} 
+}

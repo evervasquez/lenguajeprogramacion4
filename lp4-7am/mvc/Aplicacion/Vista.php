@@ -1,14 +1,22 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Investigación2
- * Date: 10/10/14
- * Time: 10:26 AM
- */
 
-namespace Aplicacion;
+class Vista
+{
+    private $_controlador;
 
+    public function __construct(Request $request)
+    {
+        $this->_controlador = $request->getControlador();
+    }
 
-class Vista {
+    public function renderizar($vista, $item = false)
+    {
+        $ruta = ROOT . 'vistas' . DS . $this->_controlador . DS . $vista . '.php';
 
+        if (is_readable($ruta)) {
+            include_once $ruta;
+        } else {
+            throw new Exception('Error de vista no encontrada');
+        }
+    }
 } 
