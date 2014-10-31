@@ -1,18 +1,21 @@
 <?php
 
-class Cursos extends conexion implements Consultas
+class Cursos extends ConsultasMYSQL
 {
-    private $db;
+    private $table = "users";
 
     public function select()
     {
-        $this->db = new conexion();
-        $sql = $this->db->prepare("SELECT * FROM users");
-        $datos = $sql->execute();
-
-        $row = $sql->fetch();
+        $datos = $this->all($this->table);
         echo '<pre>';
-        var_dump($row);
+        var_dump($datos);
+    }
+
+    public function show($id)
+    {
+        $datos = $this->show($this->table,$id);
+        echo '<pre>';
+        var_dump($datos);
     }
 
     public function update($id)

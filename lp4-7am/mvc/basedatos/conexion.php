@@ -3,8 +3,7 @@
 class conexion extends PDO
 {
 
-
-    protected static $instancia = null;
+    private $instancia = null;
     public static $_servidor = null;
     private $driver = "mysql";
     private $database = "mvc";
@@ -15,17 +14,22 @@ class conexion extends PDO
 
     public function __construct()
     {
-        if (!is_null(self::$instancia)) {
+        if (!is_null($this->instancia)) {
             return self::$instancia;
         }
         $dsn = $this->driver . ':dbname=' . $this->database . '; host=' . $this->host . '; port=' . $this->puerto;
         $password = trim($this->password);
         try {
-            self::$instancia = parent::__construct($dsn, $this->usuario, $password);
-            return self::$instancia;
+            $this->instancia = parent::__construct($dsn, $this->usuario, $password);
+            return $this->instancia;
         } catch (PDOException $e) {
             echo $e->getMessage();
             exit;
         }
+    }
+
+    public function cerrar()
+    {
+        $this->instancia = null;
     }
 }

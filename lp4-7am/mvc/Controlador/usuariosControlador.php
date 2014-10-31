@@ -20,4 +20,10 @@ class usuariosControlador extends Controlador{
         exit;
         $this->_vista->renderizar('index');
     }
+
+    public function show($id)
+    {
+        $datos = $this->_users->show($id);
+        exit;
+    }
 } 

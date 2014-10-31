@@ -1,6 +1,6 @@
 <?php
 
-interface Consultas
+interface ConsultasInterface
 {
 
     public function select();
