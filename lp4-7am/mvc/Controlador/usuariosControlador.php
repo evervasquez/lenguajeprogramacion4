@@ -7,14 +7,17 @@
  */
 
 class usuariosControlador extends Controlador{
-
+    private $_users;
     public function __construct()
     {
+        $this->_users = $this->loadModel('Cursos');
         parent::__construct();
     }
 
     public function index()
     {
+        $datos = $this->_users->select();
+        exit;
         $this->_vista->renderizar('index');
     }
 } 

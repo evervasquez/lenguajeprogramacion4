@@ -1,36 +1,33 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Investigación2
- * Date: 24/10/14
- * Time: 09:27 AM
- */
-class Cursos extends Conexion implements Consultas
+class Cursos extends conexion implements Consultas
 {
-    public function editar($id)
+    private $db;
+
+    public function select()
     {
-        // TODO: Implement editar() method.
+        $this->db = new conexion();
+        $sql = $this->db->prepare("SELECT * FROM users");
+        $datos = $sql->execute();
+
+        $row = $sql->fetch();
+        echo '<pre>';
+        var_dump($row);
     }
 
-    public function eliminar($id)
+    public function update($id)
     {
-        // TODO: Implement eliminar() method.
+        // TODO: Implement update() method.
     }
 
-    public function listar()
+    public function destroy($id)
     {
-        // TODO: Implement listar() method.
+        // TODO: Implement destroy() method.
     }
 
-    public function nuevo($datos)
+    public function add($datos)
     {
-        // TODO: Implement nuevo() method.
-    }
-
-    public function listarAlumnoCurso($curso)
-    {
-
+        // TODO: Implement add() method.
     }
 
 } 

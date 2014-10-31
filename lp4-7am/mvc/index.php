@@ -13,7 +13,8 @@ try {
     require_once APP_PATH . 'Controlador.php';
     require_once APP_PATH . 'Modelo.php';
     require_once APP_PATH . 'Vista.php';
-    //require_once BASE_DATOS . 'conexion.php';
+    require_once BASE_DATOS . 'conexion.php';
+    require_once BASE_DATOS . 'consultas.php';
     //require_once BASE_DATOS . 'Main.php';
     //session::init();
 

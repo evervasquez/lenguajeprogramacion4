@@ -3,10 +3,15 @@
 class conexion extends PDO
 {
 
+
     protected static $instancia = null;
     public static $_servidor = null;
-    private $driver, $database, $host, $puerto;
-    private $usuario = "root", $password;
+    private $driver = "mysql";
+    private $database = "mvc";
+    private $host =  "localhost";
+    private $puerto = "3306";
+    private $usuario = "root";
+    private $password = "";
 
     public function __construct()
     {
