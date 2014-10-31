@@ -11,10 +11,12 @@ class Vista
 
     public function renderizar($vista, $item = false)
     {
-        $ruta = ROOT . 'vistas' . DS . $this->_controlador . DS . $vista . '.php';
+        $ruta = ROOT . 'Vistas' . DS . $this->_controlador . DS . $vista . '.php';
 
         if (is_readable($ruta)) {
+            include_once ROOT.'Vistas'.DS.'cabecera.php';
             include_once $ruta;
+            include_once ROOT.'Vistas'.DS.'pie.php';
         } else {
             throw new Exception('Error de vista no encontrada');
         }

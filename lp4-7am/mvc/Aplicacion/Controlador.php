@@ -12,4 +12,15 @@ abstract class Controlador
     }
 
 
+    protected function loadModel($modelo)
+    {
+        $ruta = ROOT . 'Modelos' . DS . $modelo . '.php';
+        if (is_readable($ruta)) {
+            require_once $ruta;
+            $modelo = new $modelo;
+            return $modelo;
+        } else {
+            throw new Exception('error de modelo');
+        }
+    }
 }

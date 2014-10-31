@@ -6,12 +6,26 @@
  * Time: 05:18 PM
  */
 
-namespace Modelos;
+class ventas
+{
 
+    public function listar()
+    {
+        $sql = "";
+        return 'estoy listando desde el modelo';
+    }
 
-class ventas extends \conexion{
+    public function editar($id)
+    {
 
-    public function listarVentas()
+    }
+
+    public function eliminar($id)
+    {
+
+    }
+
+    public function nuevo()
     {
 
     }

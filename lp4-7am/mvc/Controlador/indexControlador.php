@@ -7,6 +7,7 @@ class indexControlador extends Controlador
         parent::__construct();
     }
 
+    //metodo para llamar al controller index
     public function index()
     {
         $this->_vista->titulo = 'Portada de index';
