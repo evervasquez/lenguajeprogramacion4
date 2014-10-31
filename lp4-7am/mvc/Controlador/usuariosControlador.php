@@ -17,7 +17,8 @@ class usuariosControlador extends Controlador{
     public function index()
     {
         $datos = $this->_users->select();
-        exit;
+
+        $this->_vista->usuarios = $datos;
         $this->_vista->renderizar('index');
     }
 

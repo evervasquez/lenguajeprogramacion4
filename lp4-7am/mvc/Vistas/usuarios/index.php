@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Investigación2
- * Date: 31/10/14
- * Time: 10:34 AM
- */ 
+<ul class="usuarios">
+    <?php foreach ($this->usuarios as $user) { ?>
+        <li><?php echo $user['nombres'].' '.$user['apellidos'] ?></li>
+    <?php } ?>
+</ul>

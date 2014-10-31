@@ -8,23 +8,17 @@
  */
 class ConsultasMYSQL extends conexion
 {
-    protected $db;
-
-    public function __construct()
-    {
-        $this->db = new conexion();
-    }
-
     protected function all($tabla, $campos = null)
     {
+        $db = new conexion();
         $cadena = null;
-        foreach ($campos as $campo) {
+        /*foreach ($campos as $campo) {
             $cadena .= $campo . ',';
-        }
-        $consultaSQL = "SELECT $cadena FROM $tabla ";
-        $sql = $this->db->prepare($consultaSQL);
+        }*/
+        $consultaSQL = "SELECT * FROM $tabla ";
+        $sql = $db->prepare($consultaSQL);
         $result = $sql->execute();
-        $this->db->cerrar();
+        $db->cerrar();
         if ($result) {
             return $sql->fetchAll();
         } else {
@@ -38,6 +32,7 @@ class ConsultasMYSQL extends conexion
         $result = $sql->execute();
         $this->db->cerrar();
         var_dump($result);
+        exit;
         if ($result) {
             return $sql->fetchAll();
         } else {

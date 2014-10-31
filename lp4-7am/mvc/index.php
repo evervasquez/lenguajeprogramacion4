@@ -7,7 +7,6 @@ define('BASE_DATOS', ROOT . 'basedatos' . DS);
 
 try {
 //aqui incluimos todos los archivos de la aplicación
-    ini_set('memory_limit', '1024M');
     require_once APP_PATH . 'Config.php';
     require_once APP_PATH . 'Request.php';
     require_once APP_PATH . 'Bootstrap.php';
@@ -15,7 +14,8 @@ try {
     require_once APP_PATH . 'Modelo.php';
     require_once APP_PATH . 'Vista.php';
     require_once BASE_DATOS . 'conexion.php';
-    //require_once BASE_DATOS . 'Consultas.php';
+    //require_once BASE_DATOS . 'Config.php';
+    //require_once APP_PATH.'vendor/autoload.php';
     require_once BASE_DATOS . 'ConsultasMYSQL.php';
 
     //require_once BASE_DATOS . 'Main.php';

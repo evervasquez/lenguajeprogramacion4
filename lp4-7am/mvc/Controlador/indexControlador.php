@@ -11,7 +11,7 @@ class indexControlador extends Controlador
     public function index()
     {
         $this->_vista->setJs(array('funcion'));
-        $this->_vista->setCss(array('nuevo','custom'));
+        $this->_vista->setCss(array('nuevo'));
         $this->_vista->titulo = 'Portada de index';
         $this->_vista->renderizar('index');
     }

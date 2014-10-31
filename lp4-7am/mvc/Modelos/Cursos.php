@@ -6,10 +6,9 @@ class Cursos extends ConsultasMYSQL
 
     public function select()
     {
-        $campos = array("id","descripcion");
-        $datos = $this->all($this->table, $campos);
-        echo '<pre>';
-        var_dump($datos);
+        //$campos = array("id","descripcion");
+        $datos = $this->all($this->table);
+        return $datos;
     }
 
     public function show($id)
@@ -33,5 +32,4 @@ class Cursos extends ConsultasMYSQL
     {
         // TODO: Implement add() method.
     }
-
 } 
