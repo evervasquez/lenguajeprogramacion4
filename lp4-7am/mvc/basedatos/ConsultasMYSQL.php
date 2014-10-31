@@ -17,7 +17,11 @@ class ConsultasMYSQL extends conexion
 
     protected function all($tabla, $campos = null)
     {
-        $consultaSQL = "SELECT * FROM $tabla ";
+        $cadena = null;
+        foreach ($campos as $campo) {
+            $cadena .= $campo . ',';
+        }
+        $consultaSQL = "SELECT $cadena FROM $tabla ";
         $sql = $this->db->prepare($consultaSQL);
         $result = $sql->execute();
         $this->db->cerrar();
@@ -29,7 +33,7 @@ class ConsultasMYSQL extends conexion
 
     protected function show($tabla, $id)
     {
-        $consultaSQL = "SELECT * FROM $tabla where id = $id";
+        $consultaSQL = "SELECT * FROM $tabla ";
         $sql = $this->db->prepare($consultaSQL);
         $result = $sql->execute();
         $this->db->cerrar();

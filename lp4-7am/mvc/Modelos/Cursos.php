@@ -6,7 +6,8 @@ class Cursos extends ConsultasMYSQL
 
     public function select()
     {
-        $datos = $this->all($this->table);
+        $campos = array("id","descripcion");
+        $datos = $this->all($this->table, $campos);
         echo '<pre>';
         var_dump($datos);
     }

@@ -7,6 +7,7 @@ define('BASE_DATOS', ROOT . 'basedatos' . DS);
 
 try {
 //aqui incluimos todos los archivos de la aplicación
+    ini_set('memory_limit', '1024M');
     require_once APP_PATH . 'Config.php';
     require_once APP_PATH . 'Request.php';
     require_once APP_PATH . 'Bootstrap.php';

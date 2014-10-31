@@ -20,7 +20,9 @@ class conexion extends PDO
         $dsn = $this->driver . ':dbname=' . $this->database . '; host=' . $this->host . '; port=' . $this->puerto;
         $password = trim($this->password);
         try {
-            $this->instancia = parent::__construct($dsn, $this->usuario, $password);
+            $this->instancia = parent::__construct($dsn, $this->usuario, $password,array(
+                PDO::ATTR_PERSISTENT => true
+            ));
             return $this->instancia;
         } catch (PDOException $e) {
             echo $e->getMessage();
