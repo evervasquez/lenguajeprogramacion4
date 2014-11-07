@@ -76,4 +76,55 @@ class ConsultasMYSQL extends conexion
             return false;
         }
     }
+
+    protected function created($tabla, $campos)
+    {
+        $cadena = null;
+
+        $db = new conexion();
+        foreach ($campos as $key => $campo) {
+            $cadena .= ":$key,";
+        }
+        $cadena = trim($cadena, ',');
+
+        $keys = array_keys($campos);
+        $keys = implode(',', $keys);
+
+        $sql = "INSERT INTO $tabla($keys) VALUES ($cadena)";
+
+        $stmt = $db->prepare($sql);
+
+        //verificamos que tipo de variable es
+        foreach ($campos as $key => $campo) {
+            if (is_int($campo)) {
+                $stmt->bindParam(":$key", $campo, PDO::PARAM_INT);
+            } elseif (is_string($campo)) {
+                $stmt->bindParam(":$key", $campo, PDO::PARAM_STR);
+            } elseif (is_double($campo)) {
+                $stmt->bindValue(":$key", $campo, PDO::PARAM_INT);
+            } elseif (is_null($campo)) {
+                $stmt->bindValue(":$key", $campo, PDO::PARAM_NULL);
+            }
+        }
+
+        if ($stmt->execute()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    protected function destroyed($tabla, $id)
+    {
+        $db = new conexion();
+        $sql = "DELETE FROM $tabla WHERE id =  :id";
+        $stmt = $db->prepare($sql);
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        
+        if ($stmt->execute()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 } 

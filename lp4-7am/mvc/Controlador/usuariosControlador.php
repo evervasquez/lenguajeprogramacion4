@@ -40,4 +40,24 @@ class usuariosControlador extends Controlador{
         echo $bol;
         exit;
     }
+
+    public function nuevo()
+    {
+        //$datos = $_POST;
+        $datos = [
+            "usuario" => "juan",
+            "apellidos"=> "juan"
+        ];
+
+        $bol = $this->_users->add($datos);
+        echo $bol;
+        exit;
+    }
+
+    public function eliminar($id)
+    {
+        $bol = $this->_users->destroy($id);
+        echo $bol;
+        exit;
+    }
 } 

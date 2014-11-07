@@ -32,13 +32,31 @@ class Cursos extends ConsultasMYSQL
         }
     }
 
-    public function destroy($id)
+    public function add($campos)
     {
-        // TODO: Implement destroy() method.
+        $OK = $this->created($this->table,$campos);
+        if ($OK) {
+            return json_encode(array(
+                "Result" => "OK"
+            ));
+        } else {
+            return json_encode(array(
+                "Result" => "ERROR"
+            ));
+        }
     }
 
-    public function add($datos)
+    public function destroy($id)
     {
-        // TODO: Implement add() method.
+        $OK = $this->destroyed($this->table,$id);
+        if ($OK) {
+            return json_encode(array(
+                "Result" => "OK"
+            ));
+        } else {
+            return json_encode(array(
+                "Result" => "ERROR"
+            ));
+        }
     }
 } 
