@@ -23,28 +23,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vistas/index/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="126">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="usuariosControlador.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controlador/usuariosControlador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="-8.6" vertical-offset="36" max-vertical-offset="630">
+            <state line="34" column="20" selection-start="660" selection-end="660" vertical-scroll-proportion="-14.233334" vertical-offset="182" max-vertical-offset="903">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vistas/usuarios/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="61" selection-start="133" selection-end="133" vertical-scroll-proportion="0.07608695" vertical-offset="0" max-vertical-offset="552">
+            <state line="2" column="61" selection-start="133" selection-end="133" vertical-scroll-proportion="-1.4" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsultasMYSQL.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basedatos/ConsultasMYSQL.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.13829787" vertical-offset="56" max-vertical-offset="1407">
+              <folding>
+                <element signature="n#all#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="23" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -59,10 +70,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="conexion.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basedatos/conexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="5" selection-start="330" selection-end="330" vertical-scroll-proportion="-6.3" vertical-offset="126" max-vertical-offset="861">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Cursos.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modelos/Cursos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="121" selection-end="121" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="840">
+            <state line="27" column="16" selection-start="650" selection-end="650" vertical-scroll-proportion="-12.833333" vertical-offset="182" max-vertical-offset="1029">
               <folding />
             </state>
           </provider>
@@ -90,21 +110,21 @@
         <option value="$PROJECT_DIR$/Aplicacion/Modelo.php" />
         <option value="$PROJECT_DIR$/basedatos/Consultas.php" />
         <option value="$PROJECT_DIR$/basedatos/ConsultasInterface.php" />
-        <option value="$PROJECT_DIR$/basedatos/conexion.php" />
         <option value="$PROJECT_DIR$/Vistas/usuarios/js/nuevo.js" />
         <option value="$PROJECT_DIR$/Aplicacion/Vista.php" />
         <option value="$PROJECT_DIR$/Vistas/cabecera.php" />
         <option value="$PROJECT_DIR$/Vistas/pie.php" />
         <option value="$PROJECT_DIR$/Vistas/index/js/funcion.js" />
         <option value="$PROJECT_DIR$/basedatos/Config.php" />
-        <option value="$PROJECT_DIR$/basedatos/ConsultasMYSQL.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Controlador/indexControlador.php" />
-        <option value="$PROJECT_DIR$/Modelos/Cursos.php" />
-        <option value="$PROJECT_DIR$/Controlador/usuariosControlador.php" />
         <option value="$PROJECT_DIR$/Vistas/index/index.php" />
         <option value="$PROJECT_DIR$/Vistas/usuarios/index.php" />
+        <option value="$PROJECT_DIR$/Controlador/usuariosControlador.php" />
+        <option value="$PROJECT_DIR$/Modelos/Cursos.php" />
+        <option value="$PROJECT_DIR$/basedatos/conexion.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/basedatos/ConsultasMYSQL.php" />
       </list>
     </option>
   </component>
@@ -112,8 +132,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="736" />
+    <option name="width" value="1552" />
+    <option name="height" value="842" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -141,7 +161,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,38 +176,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vistas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vistas" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usuarios" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,8 +207,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basedatos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,15 +283,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="736" extended-state="6" />
+    <frame x="-8" y="-8" width="1552" height="842" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2333001" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15379538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -467,126 +469,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="299" selection-end="299" vertical-scroll-proportion="0.39548022" vertical-offset="0" max-vertical-offset="531">
-          <folding />
-        </state>
+        <state line="10" column="31" selection-start="299" selection-end="299" vertical-scroll-proportion="0.39548022" vertical-offset="0" max-vertical-offset="531" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/pie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.22826087" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
+        <state line="6" column="7" selection-start="141" selection-end="141" vertical-scroll-proportion="0.22826087" vertical-offset="0" max-vertical-offset="552" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/index/css/nuevo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/index/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basedatos/ConsultasInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.07608695" vertical-offset="0" max-vertical-offset="552">
-          <folding />
-        </state>
+        <state line="2" column="28" selection-start="35" selection-end="35" vertical-scroll-proportion="0.07608695" vertical-offset="0" max-vertical-offset="552" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modelos/Users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="111" selection-end="111" vertical-scroll-proportion="0.118644066" vertical-offset="0" max-vertical-offset="531">
-          <folding />
-        </state>
+        <state line="8" column="12" selection-start="111" selection-end="111" vertical-scroll-proportion="0.118644066" vertical-offset="0" max-vertical-offset="531" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="26" selection-start="1145" selection-end="1182" vertical-scroll-proportion="0.23913044" vertical-offset="918" max-vertical-offset="1470">
-          <folding />
-        </state>
+        <state line="50" column="26" selection-start="1145" selection-end="1182" vertical-scroll-proportion="0.23913044" vertical-offset="918" max-vertical-offset="1470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="608" selection-end="620" vertical-scroll-proportion="0.35064936" vertical-offset="315" max-vertical-offset="1050">
-          <folding />
-        </state>
+        <state line="24" column="24" selection-start="608" selection-end="620" vertical-scroll-proportion="0.35064936" vertical-offset="315" max-vertical-offset="1050" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Controlador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="199" selection-end="516" vertical-scroll-proportion="0.35326087" vertical-offset="99" max-vertical-offset="651">
-          <folding />
-        </state>
+        <state line="14" column="7" selection-start="199" selection-end="516" vertical-scroll-proportion="0.35326087" vertical-offset="99" max-vertical-offset="651" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="146" selection-end="155" vertical-scroll-proportion="0.21649484" vertical-offset="0" max-vertical-offset="582">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="236" selection-end="236" vertical-scroll-proportion="0.3559322" vertical-offset="0" max-vertical-offset="531">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basedatos/conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="419" selection-end="419" vertical-scroll-proportion="0.116883114" vertical-offset="315" max-vertical-offset="903">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basedatos/ConsultasMYSQL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="326" selection-end="326" vertical-scroll-proportion="0.5706522" vertical-offset="0" max-vertical-offset="987">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="339" selection-end="690" vertical-scroll-proportion="0.16602316" vertical-offset="103" max-vertical-offset="924">
-          <folding />
-        </state>
+        <state line="6" column="19" selection-start="146" selection-end="155" vertical-scroll-proportion="0.21649484" vertical-offset="0" max-vertical-offset="582" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Vista.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="13" selection-start="887" selection-end="905" vertical-scroll-proportion="1.4025974" vertical-offset="0" max-vertical-offset="1407">
-          <folding />
-        </state>
+        <state line="36" column="13" selection-start="887" selection-end="905" vertical-scroll-proportion="1.4025974" vertical-offset="0" max-vertical-offset="1407" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/cabecera.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="403" selection-end="689" vertical-scroll-proportion="0.116883114" vertical-offset="126" max-vertical-offset="945">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="403" selection-end="689" vertical-scroll-proportion="0.116883114" vertical-offset="126" max-vertical-offset="945" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controlador/ventasControlador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="439" selection-end="439" vertical-scroll-proportion="0.5344203" vertical-offset="209" max-vertical-offset="882">
-          <folding />
-        </state>
+        <state line="24" column="27" selection-start="439" selection-end="439" vertical-scroll-proportion="0.5344203" vertical-offset="209" max-vertical-offset="882" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modelos/Cursos.php">
+    <entry file="file://$PROJECT_DIR$/Vistas/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="121" selection-end="121" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="840">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
@@ -600,22 +548,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controlador/usuariosControlador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="-8.6" vertical-offset="36" max-vertical-offset="630">
+        <state line="34" column="20" selection-start="660" selection-end="660" vertical-scroll-proportion="-14.233334" vertical-offset="182" max-vertical-offset="903">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vistas/index/index.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+        <state line="181" column="9" selection-start="6226" selection-end="6281" vertical-scroll-proportion="0.3480243" vertical-offset="3572" max-vertical-offset="22848">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vistas/usuarios/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="61" selection-start="133" selection-end="133" vertical-scroll-proportion="0.07608695" vertical-offset="0" max-vertical-offset="552">
+        <state line="2" column="61" selection-start="133" selection-end="133" vertical-scroll-proportion="-1.4" vertical-offset="0" max-vertical-offset="210">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modelos/Cursos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="650" selection-end="650" vertical-scroll-proportion="-12.833333" vertical-offset="182" max-vertical-offset="1029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.6" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basedatos/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="330" selection-end="330" vertical-scroll-proportion="-6.3" vertical-offset="126" max-vertical-offset="861">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basedatos/ConsultasMYSQL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.13829787" vertical-offset="56" max-vertical-offset="1407">
+          <folding>
+            <element signature="n#all#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

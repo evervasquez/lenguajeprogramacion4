@@ -15,14 +15,12 @@ class conexion extends PDO
     public function __construct()
     {
         if (!is_null($this->instancia)) {
-            return self::$instancia;
+            return $this->instancia;
         }
         $dsn = $this->driver . ':dbname=' . $this->database . '; host=' . $this->host . '; port=' . $this->puerto;
         $password = trim($this->password);
         try {
-            $this->instancia = parent::__construct($dsn, $this->usuario, $password,array(
-                PDO::ATTR_PERSISTENT => true
-            ));
+            $this->instancia = parent::__construct($dsn, $this->usuario, $password);
             return $this->instancia;
         } catch (PDOException $e) {
             echo $e->getMessage();
