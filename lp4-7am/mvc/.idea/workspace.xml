@@ -26,11 +26,13 @@
       <file leaf-file-name="ConsultasMYSQL.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basedatos/ConsultasMYSQL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="8" selection-start="3558" selection-end="3558" vertical-scroll-proportion="0.61702126" vertical-offset="749" max-vertical-offset="1428">
+            <state line="116" column="0" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.44680852" vertical-offset="0" max-vertical-offset="658">
               <folding>
                 <element signature="n#all#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
                 <element signature="n#show#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
                 <element signature="n#updated#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
+                <element signature="n#created#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
+                <element signature="n#destroyed#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -610,11 +612,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basedatos/ConsultasMYSQL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="8" selection-start="3558" selection-end="3558" vertical-scroll-proportion="0.61702126" vertical-offset="749" max-vertical-offset="1428">
+        <state line="116" column="0" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.44680852" vertical-offset="0" max-vertical-offset="658">
           <folding>
             <element signature="n#all#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
             <element signature="n#show#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
             <element signature="n#updated#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
+            <element signature="n#created#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
+            <element signature="n#destroyed#0;n#ConsultasMYSQL#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

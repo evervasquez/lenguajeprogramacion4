@@ -120,7 +120,7 @@ class ConsultasMYSQL extends conexion
         $sql = "DELETE FROM $tabla WHERE id =  :id";
         $stmt = $db->prepare($sql);
         $stmt->bindParam(':id', $id, PDO::PARAM_INT);
-        
+
         if ($stmt->execute()) {
             return true;
         } else {
