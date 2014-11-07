@@ -16,7 +16,7 @@ class usuariosControlador extends Controlador{
 
     public function index()
     {
-        $datos = $this->_users->select();
+        $datos = $this->_users->showing(1);
 
         $this->_vista->usuarios = $datos;
         $this->_vista->renderizar('index');
@@ -25,6 +25,39 @@ class usuariosControlador extends Controlador{
     public function show($id)
     {
         $datos = $this->_users->show($id);
+
+    }
+
+    public function editar($id)
+    {
+        //$datos = $_POST;
+        $datos = [
+            "usuario" => "juan",
+            "apellidos"=> "juan"
+        ];
+
+        $bol = $this->_users->update($datos,$id);
+        echo $bol;
+        exit;
+    }
+
+    public function nuevo()
+    {
+        //$datos = $_POST;
+        $datos = [
+            "usuario" => "juan",
+            "apellidos"=> "juan"
+        ];
+
+        $bol = $this->_users->add($datos);
+        echo $bol;
+        exit;
+    }
+
+    public function eliminar($id)
+    {
+        $bol = $this->_users->destroy($id);
+        echo $bol;
         exit;
     }
 } 

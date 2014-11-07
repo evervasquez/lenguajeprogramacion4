@@ -6,30 +6,57 @@ class Cursos extends ConsultasMYSQL
 
     public function select()
     {
-        //$campos = array("id","descripcion");
-        $datos = $this->all($this->table);
+        $campos = array("id", "usuario", "apellidos");
+        $datos = $this->all($this->table, $campos);
         return $datos;
     }
 
-    public function show($id)
+    public function showing($id)
     {
-        $datos = $this->show($this->table,$id);
-        echo '<pre>';
-        var_dump($datos);
+        //$campos = array("id", "usuario", "apellidos");
+        $datos = $this->show($this->table, $id);
+        return $datos;
     }
 
-    public function update($id)
+    public function update($campos, $id)
     {
-        // TODO: Implement update() method.
+        $OK = $this->updated($this->table, $id, $campos);
+        if ($OK) {
+            return json_encode(array(
+                "Result" => "OK"
+            ));
+        } else {
+            return json_encode(array(
+                "Result" => "ERROR"
+            ));
+        }
+    }
+
+    public function add($campos)
+    {
+        $OK = $this->created($this->table,$campos);
+        if ($OK) {
+            return json_encode(array(
+                "Result" => "OK"
+            ));
+        } else {
+            return json_encode(array(
+                "Result" => "ERROR"
+            ));
+        }
     }
 
     public function destroy($id)
     {
-        // TODO: Implement destroy() method.
-    }
-
-    public function add($datos)
-    {
-        // TODO: Implement add() method.
+        $OK = $this->destroyed($this->table,$id);
+        if ($OK) {
+            return json_encode(array(
+                "Result" => "OK"
+            ));
+        } else {
+            return json_encode(array(
+                "Result" => "ERROR"
+            ));
+        }
     }
 } 

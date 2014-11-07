@@ -6,6 +6,7 @@ define('APP_PATH', ROOT . 'Aplicacion' . DS); // ruta del directorio de las apli
 define('BASE_DATOS', ROOT . 'basedatos' . DS);
 
 try {
+    error_reporting(0);
 //aqui incluimos todos los archivos de la aplicación
     require_once APP_PATH . 'Config.php';
     require_once APP_PATH . 'Request.php';
