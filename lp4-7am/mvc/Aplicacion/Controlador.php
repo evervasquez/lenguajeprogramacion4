@@ -14,7 +14,7 @@ abstract class Controlador
 
     protected function loadModel($modelo)
     {
-        $ruta = ROOT . 'Modelos' . DS . $modelo . '.php';
+        $ruta = ROOT . 'mvc'.DS.'Entidades' . DS . $modelo . '.php';
         if (is_readable($ruta)) {
             require_once $ruta;
             $modelo = new $modelo;

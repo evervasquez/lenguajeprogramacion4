@@ -6,7 +6,6 @@ define('APP_PATH', ROOT . 'Aplicacion' . DS); // ruta del directorio de las apli
 define('BASE_DATOS', ROOT . 'basedatos' . DS);
 
 try {
-    error_reporting(0);
 //aqui incluimos todos los archivos de la aplicación
     require_once APP_PATH . 'Config.php';
     require_once APP_PATH . 'Request.php';
@@ -14,10 +13,11 @@ try {
     require_once APP_PATH . 'Controlador.php';
     require_once APP_PATH . 'Modelo.php';
     require_once APP_PATH . 'Vista.php';
-    require_once BASE_DATOS . 'conexion.php';
+    //require_once BASE_DATOS . 'conexion.php';
     //require_once BASE_DATOS . 'Config.php';
-    //require_once APP_PATH.'vendor/autoload.php';
-    require_once BASE_DATOS . 'ConsultasMYSQL.php';
+    require_once ROOT.'vendor'.DS.'autoload.php';
+
+    require_once BASE_DATOS . 'Config.php';
 
     //require_once BASE_DATOS . 'Main.php';
     //session::init();

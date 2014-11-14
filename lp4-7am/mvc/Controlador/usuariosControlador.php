@@ -5,21 +5,22 @@
  * Date: 17/10/14
  * Time: 05:23 PM
  */
-
+use mvc\Repositorio\UsersRepositorie;
 class usuariosControlador extends Controlador{
-    private $_users;
+
+    protected $userRepo;
+
     public function __construct()
     {
-        $this->_users = $this->loadModel('Cursos');
         parent::__construct();
     }
 
     public function index()
     {
-        $datos = $this->_users->showing(1);
-
-        $this->_vista->usuarios = $datos;
-        $this->_vista->renderizar('index');
+        $this->userRepo = new UsersRepositorie();
+        echo '<pre>';
+        var_dump( $this->userRepo->getAll());
+        exit;
     }
 
     public function show($id)

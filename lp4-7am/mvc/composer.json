@@ -5,6 +5,11 @@
         "illuminate/database": "~4.2",
         "chumper/datatable": "dev-master"
     },
+    "autoload": {
+        "psr-4": {
+            "sistemadocente\\": "mvc"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
